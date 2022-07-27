@@ -4,7 +4,7 @@ import Helmet from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 import ogImageDefault from "../../content/default.jpg"
 
-import { lightTheme } from "../styles/theme"
+import { darkTheme } from "../styles/theme"
 
 const SEO = ({ description, lang, meta, title }) => {
   const { site } = useStaticQuery(
@@ -75,11 +75,11 @@ const SEO = ({ description, lang, meta, title }) => {
         },
         {
           name: `msapplication-TileColor`,
-          content: lightTheme.colors.primary,
+          content: darkTheme.colors.primary,
         },
         {
           name: `theme-color`,
-          content: lightTheme.colors.primary,
+          content: darkTheme.colors.primary,
         },
       ].concat(meta)}
     />
