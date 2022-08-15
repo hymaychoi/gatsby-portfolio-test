@@ -10,7 +10,7 @@ const {
 } = require(`./config`)
 
 module.exports = {
-  pathPrefix:"/gatsby-portfolio",
+  pathPrefix:"/gatsby-portfolio-test",
 
   siteMetadata: {
     author: author,
