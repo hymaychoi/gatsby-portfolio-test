@@ -56,10 +56,6 @@ module.exports = {
       url:
         "https://github.com/hymaychoi",
     }
-    // {
-    //   name: "Mail",
-    //   url: "mailto:hymaychoi@gmail.com",
-    // },
   ],
 
   //-- NAVIGATION SETTINGS -----
@@ -81,7 +77,7 @@ module.exports = {
     button: {
       useFileName: true,
       name: "Resume",
-      fileName: "Resume - May Choi_ June06_2022.pdf", // the file has to be placed inside the static folder at the root level
+      fileName: "Resume - May Choi_ AUG15_2022", // the file has to be placed inside the static folder at the root level
       url: "", // if useFileName=false, you can set an anchor link here and use the button for navigational purposes
     },
   },
