@@ -1,7 +1,7 @@
 # Personal Portfolio Site
 
 ## Tech stacks
-Gatsby, ReactJS GithubPages
+Gatsby, ReactJS, GithubPages
 
 ## Live Demo
 https://hymaychoi.github.io/gatsby-portfolio/
